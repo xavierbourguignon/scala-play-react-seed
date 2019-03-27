@@ -23,8 +23,7 @@ class FrontendController @Inject()(assets: Assets, errorHandler: HttpErrorHandle
   }
  
  def RSPEC3923(b: Integer) {
-  if (b == 0) { // Noncompliant
-    b = 1
+  if (b == 0) { 
   } else {
     b = 1
   }
