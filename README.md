@@ -1,6 +1,6 @@
 [![MIT License][license-badge]][LICENSE]
 
-# Scala Play React Seed
+# Scala Play React Seed !
 
 > Use play framework to develop the web application backend/services and frontend using React Create App, all in a totally integrated workflow and single unified console. This approach will deliver perfect development experience without CORS hassle. 
  
