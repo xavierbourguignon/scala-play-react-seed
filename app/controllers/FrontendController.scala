@@ -21,4 +21,12 @@ class FrontendController @Inject()(assets: Assets, errorHandler: HttpErrorHandle
   } else {
     if (resource.contains(".")) assets.at(resource) else index
   }
+ 
+ def RSPEC3923(b: Integer) {
+  if (b == 0) { // Noncompliant
+    b = 1
+  } else {
+    b = 1
+  }
+ }
 }
